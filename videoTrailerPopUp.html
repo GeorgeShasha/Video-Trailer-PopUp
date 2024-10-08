@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Trailer PopUp</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/b50e7ef54b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="https://images.pexels.com/photos/1117132/pexels-photo-1117132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt="Movie Image"
+      />
+      <h2>Movie Title</h2>
+      <p>
+        Sure! Could you please specify which movie you're interested in? If you
+        have a particular title in mind, I can provide a detailed description
+        for you. If you're looking for a general guide on how to describe a
+        movie, I can help with that too!
+      </p>
+      <button id="watchNow-btn">Watch Now</button>
+    </div>
+    <div class="trailer-container active">
+      <video src="media/movie-trailer.mp4" controls></video>
+      <i class="fa-solid fa-xmark" id="close-btn"></i>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
